@@ -22,7 +22,7 @@ const NavBar = () => {
               Aufgaben
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href='/aufgabe1'>Aufgabe1</a></li>
+              <li><a class="dropdown-item" href='/aufgaben'>Aufgabe1</a></li>
               {/* <li><a class="dropdown-item" href="#">Englisch</a></li>
               <li><a class="dropdown-item" href="#">Hindu</a></li> */}
             </ul>

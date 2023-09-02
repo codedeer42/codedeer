@@ -1,7 +1,6 @@
 import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import {Aufgabe1} from './pages/Aufgabe1';
-import {Aufgaben} from './pages/Aufgaben';
 import {BrowserRouter,Routes,Route} from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -12,8 +11,15 @@ function App() {
   return (
     <>
       <NavBar/> 
-      <Aufgabe1></Aufgabe1>
+  
+      <Routes> 
+        <Route index element={<Home/>}></Route>
+        <Route path='/home'  element={<Home/>}></Route>
+        <Route path='/aufgaben'  element={<Aufgabe1/>}></Route>
+      </Routes>
+     
       </>
+         //<Aufgabe1></Aufgabe1>
   );
 }
 
