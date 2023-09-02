@@ -11,12 +11,12 @@ function App() {
   return (
     <>
       <NavBar/> 
-  
-      <Routes> 
+      <Aufgabe1/>
+      {/* <Routes> 
         <Route index element={<Home/>}></Route>
         <Route path='/home'  element={<Home/>}></Route>
         <Route path='/aufgaben'  element={<Aufgabe1/>}></Route>
-      </Routes>
+      </Routes> */}
      
       </>
          //<Aufgabe1></Aufgabe1>
