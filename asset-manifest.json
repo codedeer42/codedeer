@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/codedeer/static/css/main.c9231fc2.css",
-    "main.js": "/codedeer/static/js/main.b1572752.js",
+    "main.js": "/codedeer/static/js/main.3904722b.js",
     "static/js/787.41066489.chunk.js": "/codedeer/static/js/787.41066489.chunk.js",
     "static/media/coding.jpg": "/codedeer/static/media/coding.c690cdda0cb29fb7cef3.jpg",
     "static/media/logo.svg": "/codedeer/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/codedeer/index.html",
     "main.c9231fc2.css.map": "/codedeer/static/css/main.c9231fc2.css.map",
-    "main.b1572752.js.map": "/codedeer/static/js/main.b1572752.js.map",
+    "main.3904722b.js.map": "/codedeer/static/js/main.3904722b.js.map",
     "787.41066489.chunk.js.map": "/codedeer/static/js/787.41066489.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c9231fc2.css",
-    "static/js/main.b1572752.js"
+    "static/js/main.3904722b.js"
   ]
 }
