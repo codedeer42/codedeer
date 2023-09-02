@@ -1,0 +1,72 @@
+[
+  {
+    "question": "Welcher HTML-Tag wird verwendet, um den Titel einer Webseite festzulegen?",
+    "options": ["<title>", "<header>", "<h1>"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welcher HTML-Tag wird verwendet, um Absätze zu erstellen?",
+    "options": ["<p>", "<br>", "<a>"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welcher HTML-Tag wird verwendet, um eine Überschrift ersten Grades festzulegen?",
+    "options": ["<h1>", "<head>", "<header>"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welcher HTML-Tag wird verwendet, um einen Zeilenumbruch innerhalb eines Textes zu erzeugen?",
+    "options": ["<br>", "<nl>", "<lb>"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um die Schriftfarbe von Text zu ändern?",
+    "options": ["color", "font-color", "text-color"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um die Schriftart von Text zu ändern?",
+    "options": ["font-family", "text-font", "font-style"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um die Schriftgröße von Text zu ändern?",
+    "options": ["font-size", "text-size", "size"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um die Breite eines Elements festzulegen?",
+    "options": ["width", "size", "length"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um eine oder mehrere Klassen für ein Element zu definieren?",
+    "options": ["class", "style", "id"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um den Pfad zur Quelldatei eines Bildes oder Multimedia-Elements anzugeben?",
+    "options": ["src", "href", "link"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um einen alternativen Text für ein Bild anzugeben, das nicht geladen werden kann?",
+    "options": ["alt", "title", "description"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Welches Attribut wird verwendet, um das Aussehen eines Elements direkt im HTML-Tag anzupassen?",
+    "options": ["style", "format", "design"],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Was sind Attribute in HTML?",
+    "options": ["Zusätzliche Informationen in Tags, um das Verhalten oder Aussehen von Elementen anzupassen.", "Klassen von CSS-Selektoren.", "Funktionen zur Animation von Webseiten."],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Wie schreibt man dekoration auf Englisch?",
+    "options": ["decoration", "dekuration", "dekoration"],
+    "correctAnswer": 0
+  }
+]

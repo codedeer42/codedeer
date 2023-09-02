@@ -1,0 +1,8 @@
+.quiz-container {
+  width: 250px;
+  margin: 0 auto; /* Dieses CSS bewirkt, dass das Element horizontal zentriert wird */
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column; /* Wir ändern die Ausrichtung auf Spalten, um die Fragen untereinander anzuzeigen */
+  align-items: center; /* Dieses CSS bewirkt, dass das Element vertikal zentriert wird */
+}
