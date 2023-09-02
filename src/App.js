@@ -11,11 +11,12 @@ function App() {
   return (
     <>
       <NavBar/> 
-      <Aufgabe1/>
+
+      {/* <Aufgabe1/> */}
       <HashRouter>
        <Routes> 
-        <Route index element={<Home/>}></Route>
-        <Route path='/home'  element={<Home/>}></Route>
+        <Route index element={<Aufgabe1/>}></Route>
+        <Route path='/home'      element={<Home/>}></Route>
         <Route path='/aufgaben'  element={<Aufgabe1/>}></Route>
       </Routes> 
      </HashRouter>
