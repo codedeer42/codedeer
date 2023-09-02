@@ -12,17 +12,8 @@ function App() {
   return (
     <>
       <NavBar/> 
-      <BrowserRouter>
-      <Routes> 
-        <Route index element={<Aufgabe1/>}></Route>
-        <Route path='/home'  element={<Aufgabe1/>}></Route>
-        <Route path='/aufgabe1'  element={<Aufgabe1/>}></Route>
-      </Routes>
-   
-    
-      </BrowserRouter>
+      <Aufgabe1></Aufgabe1>
       </>
-         //<Aufgabe1></Aufgabe1>
   );
 }
 
