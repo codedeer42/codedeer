@@ -1,0 +1,24 @@
+img{
+  width: 200px;
+}
+
+.aufgabe1-container-css{
+  padding-left: 15px;
+}
+
+.aufgabe1-container-css h1{
+  color: blue;
+}
+
+.aufgabe1-container-css h3{
+  color: rgb(197, 66, 190);
+}
+
+
+.aufgabe1-container-css p{
+  font-size: 20px;
+}
+
+.aufgabe1-container-css ol{
+  font-size: 20px;
+}
