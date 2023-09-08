@@ -1,6 +1,6 @@
-import NavBar from "../components/NavBar"
-import bild from '../images/coding.jpg'
-import '../styles/aufgabe1.css';
+import NavBar from "../../components/NavBar"
+import bild from '../../images/coding.jpg'
+import '../../styles/aufgabe1.css';
 export const Aufgabe1 = () => {
   return (
     <div className="aufgabe1-container-css">

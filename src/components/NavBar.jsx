@@ -1,6 +1,11 @@
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import bild from '../images/coding.jpg'
+import { StarFill  } from 'react-bootstrap-icons';
+
 const NavBar = () => {
+  const level = 0;
+  const progress = 60; 
   return (
     <div>
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -23,6 +28,7 @@ const NavBar = () => {
             </a>
             <ul className="dropdown-menu">
               <li><a className="dropdown-item" href='/codedeer/#aufgaben'>Aufgabe1</a></li>
+              <li><a className="dropdown-item" href='/codedeer/#aufgaben2'>Aufgabe2</a></li>
               {/* <li><a class="dropdown-item" href="#">Englisch</a></li>
               <li><a class="dropdown-item" href="#">Hindu</a></li> */}
             </ul>
@@ -31,10 +37,18 @@ const NavBar = () => {
             <a className="nav-link disabled" aria-disabled="true">codedeer.de</a>
           </li>
         </ul>
-        <form className="d-flex" role="search">
+        <div  className="d-flex align-items-center justify-content-center">
+          1
+        <StarFill />
+        
+        <progress className="progress-bar mx-2" value={progress} max="100"></progress>
+        <span className='mx-2'>Level: {level}</span>    
+        </div>
+             
+        {/* <form className="d-flex" role="search">
         <input className="form-control me-2" type="search" placeholder="...." aria-label="Search"></input>
           <button className="btn btn-outline-success" type="submit">Suchen</button>
-        </form>
+        </form> */}
       </div>
     </div>
   </nav>

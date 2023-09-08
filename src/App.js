@@ -1,7 +1,8 @@
 import logo from './logo.svg';
 import NavBar from './components/NavBar';
 import {Quiz} from './pages/Quiz';
-import {Aufgabe1}  from './pages/Aufgabe1';
+import {Aufgabe1}  from './pages/aufgaben/Aufgabe1';
+import {Aufgabe2}  from './pages/aufgaben/Aufgabe2';
 import {HashRouter,Routes,Route} from 'react-router-dom'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
@@ -19,6 +20,7 @@ function App() {
         <Route index element={<Aufgabe1/>}></Route>
         <Route path='/home'      element={<Home/>}></Route>
         <Route path='/aufgaben'  element={<Aufgabe1/>}></Route>
+        <Route path='/aufgaben2'  element={<Aufgabe2/>}></Route>
         <Route path='/quiz'  element={<Quiz/>}></Route>
       </Routes> 
      </HashRouter>
