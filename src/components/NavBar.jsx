@@ -28,7 +28,7 @@ const NavBar = () => {
             </a>
             <ul className="dropdown-menu">
               <li><a className="dropdown-item" href='/codedeer/#aufgaben'>Aufgabe1</a></li>
-              <li><a className="dropdown-item" href='/codedeer/#aufgaben2'>Aufgabe2</a></li>
+              <li><a className="dropdown-item" href='/codedeer/#aufgabe2'>Aufgabe2</a></li>
               {/* <li><a class="dropdown-item" href="#">Englisch</a></li>
               <li><a class="dropdown-item" href="#">Hindu</a></li> */}
             </ul>
