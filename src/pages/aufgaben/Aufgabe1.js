@@ -33,6 +33,7 @@ export const Aufgabe1 = () => {
         <img src={bild} className="aufgaben-bild-css" alt="Bildlink" />
       </a>{' '}
     </p>
+    <button>Aufgabe bestanden</button>
   </div>
   )
 }

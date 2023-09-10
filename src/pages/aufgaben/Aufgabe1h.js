@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import StyledLink from "../../components/StyledLink"
 import bild from '../../images/coding.jpg'
 import '../../styles/aufgabe1.css';
+import { TextWindow } from '../../components/TextWindow';
 export const Aufgabe1h = () => {
   const [inhalt,setInhalt] = useState("");
   return (
@@ -21,7 +22,7 @@ export const Aufgabe1h = () => {
           </ol>
         </div>
         <div className="col-12 col-sm-12  col-md-9 bg-danger " style={{ wordWrap: 'break-word',textAlign:'center' }}>
-          <p>createdCOMPONENT{inhalt}</p>
+        <TextWindow></TextWindow>  {/* <p>createdCOMPONENT{inhalt}</p> */}
         </div>
       </div>
     </div>
